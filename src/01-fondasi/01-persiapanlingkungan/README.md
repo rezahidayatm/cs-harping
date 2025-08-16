@@ -1,6 +1,5 @@
-﻿# Persiapan Lingkungan
+﻿# 1.1. Persiapan Lingkungan
 
----
 ### 1. Perangkat Lunak Inti (Core Software)
 
 Ini adalah fondasi teknis yang wajib ada di mesin pengembangan Anda.
