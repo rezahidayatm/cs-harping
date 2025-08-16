@@ -47,12 +47,12 @@ string sinopsisIMDB = "John Wick is a former hitman grieving "    +
                       "killed, he is forced to return to action " +
                       "to exact revenge.";
 
-Console.WriteLine(      "--- Film Favorit ---"       );
-Console.WriteLine( $"Judul Film   : {judulFilm}"     );
-Console.WriteLine( $"Tahun Rilis  : {tahunRilis}"    );
-Console.WriteLine( $"Rating IMDB  : {ratingIMDB}/10" );
-Console.WriteLine( $"Sudah Nonton : {sudahNonton}"   );
-Console.WriteLine( $"Judul Film   : {sinopsisIMDB}"  ); // <-
+Console.WriteLine(       "--- Film Favorit ---"       );
+Console.WriteLine( $"Judul Film   : {judulFilm}"      );
+Console.WriteLine( $"Tahun Rilis  : {tahunRilis}"     );
+Console.WriteLine( $"Rating IMDB  : {ratingIMDB}/10"  );
+Console.WriteLine( $"Sudah Nonton : {sudahNonton}"    );
+Console.WriteLine( $"Judul Film   : {sinopsisIMDB}"   ); // <-
 
 
 
