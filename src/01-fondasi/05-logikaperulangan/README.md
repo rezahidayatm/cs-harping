@@ -1,7 +1,5 @@
 ## 1.5. Struktur Kontrol (Logika Perulangan)
 
----
-
 Selamat datang di **Pelajaran 4: Struktur Kontrol Perulangan (`while` dan `for`)**.
 
 -----
