@@ -1,7 +1,5 @@
 ﻿## 1.2. Variabel & Tipe Data Primitif
 
----
-
 Pelajaran pertama kita adalah tentang blok bangunan paling fundamental dalam semua bahasa pemrograman: **Variabel dan Tipe Data**.
 
 -----
