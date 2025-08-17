@@ -1,4 +1,4 @@
-## 1. Fondasi – "Menulis Kode Pertama
+## 1.0. Fondasi – "Menulis Kode Pertama
 
 1.  **Pengenalan & Penyiapan Lingkungan:**
     * Memahami apa itu C# dan .NET.
