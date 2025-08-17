@@ -1,5 +1,5 @@
 ﻿/* ==================================================
- * 1.2. Variabel
+ * 1.2. Variabel & Tipe Data Primitif
  * ==================================================
  * Bayangkan Anda sedang merapikan sebuah ruangan.
  * Anda pasti butuh beberapa kotak untuk menyimpan
@@ -15,15 +15,15 @@
 
 
 
-string  judulFilm       = "John Wick"                                 ;
-int     tahunRilis      = 2014                                        ;
-double  ratingIMDB      = 7.5                                         ;
-bool    sudahNonton     = true                                        ;
-string  sinopsisIMDB    = "John Wick is a former hitman grieving "    + 
-                          "the loss of his true love. When his home " +
-                          "is broken into, robbed, and his dog "      + 
-                          "killed, he is forced to return to action " +
-                          "to exact revenge."                         ;
+string  judulFilm    = "John Wick"                                 ;
+int     tahunRilis   = 2014                                        ;
+double  ratingIMDB   = 7.5                                         ;
+bool    sudahNonton  = true                                        ;
+string  sinopsisIMDB = "John Wick is a former hitman grieving "    + 
+                       "the loss of his true love. When his home " +
+                       "is broken into, robbed, and his dog "      + 
+                       "killed, he is forced to return to action " +
+                       "to exact revenge."                         ;
 
 Console.WriteLine("--- Film Favorit ---")           ;
 Console.WriteLine($"Judul Film   : {judulFilm}")    ;
@@ -32,15 +32,15 @@ Console.WriteLine($"Rating IMDB  : {ratingIMDB}/10");
 Console.WriteLine($"Sudah Nonton : {sudahNonton}")  ;
 Console.WriteLine($"Judul Film   : {sinopsisIMDB}") ; // <-
 
+
+
 /*
  * KESALAHAN.
  * // Di baris terakhir kode Anda:
 
-Console.WriteLine( $"Sinopsis : {sinopsisIMDB}");
+ Console.WriteLine( $"Sinopsis : {sinopsisIMDB}");
 
- */
-
-/* ==================================================
+ * ==================================================
  * Tips Menangani Teks Panjang (Multiline String)
  * ==================================================
  * string sinopsisIMDB = @"John Wick is a former

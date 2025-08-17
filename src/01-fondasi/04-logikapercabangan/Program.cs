@@ -8,7 +8,8 @@
  * memberitahu program jalan mana yang harus diambil
  * berdasarkan sebuah kondisi.
  * ==================================================
-*/
+ */
+
 
 
 // Data admin
@@ -17,7 +18,7 @@ string  username = "keanureeves"   ;
 string  password = "rahasiarahasia";
 
 // Program
-Console.WriteLine("Bank Sederhana");
+Console.WriteLine("Bank Sederhana")  ;
 Console.WriteLine("--------------\n");
 
 Console.WriteLine("Tekan enter untuk melanjutkan. Atau, tekan 1 untuk masuk ke halaman admin.");
@@ -71,18 +72,18 @@ Console.WriteLine("Selamat datang nasabah. Silahkan masukkan username nasabah an
  *
  * Inilah logika Anda:
 
-if (inputUsernameAdmin == username && inputPasswordAdmin == password) // 1. Cek jika keduanya benar
-{
-        // ...
-}
-else if (inputPasswordAdmin != password) // 2. Cek jika password salah
-{
-    Console.WriteLine("Password salah!");
-}
-else    // 3. Selain itu
-{
-    Console.WriteLine("Username tidak ditemukan!"); 
-}
+ if (inputUsernameAdmin == username && inputPasswordAdmin == password) // 1. Cek jika keduanya benar
+ {
+     // ...
+ }
+ else if (inputPasswordAdmin != password) // 2. Cek jika password salah
+ {
+     Console.WriteLine("Password salah!");
+ }
+ else    // 3. Selain itu
+ {
+     Console.WriteLine("Username tidak ditemukan!"); 
+ }
 
  * Sekarang, mari kita simulasikan apa yang terjadi
  * jika pengguna memasukkan username yang salah DAN
@@ -105,20 +106,20 @@ else    // 3. Selain itu
  *
  * Berikut adalah struktur logika yang lebih akurat:
 
-if (inputUsernameAdmin == username && inputPasswordAdmin == password)
-{
+ if (inputUsernameAdmin == username && inputPasswordAdmin == password)
+ {
     // Jika kita di sini, artinya username DAN password sudah pasti benar.
     Console.WriteLine($"Selamat datang {nama}. Silahkan pilih aksi: ...");
-}
-else if (inputUsernameAdmin == username) // <-- Kuncinya di sini!
-{
+ }
+ else if (inputUsernameAdmin == username) // <-- Kuncinya di sini!
+ {
     // Jika kita sampai di sini, itu berarti kondisi `if` pertama gagal.
     // TAPI, username-nya COCOK.
     // Satu-satunya alasan `if` pertama gagal adalah karena PASSWORD PASTI SALAH.
     Console.WriteLine("Password salah!");
-}
-else
-{
+ }
+ else
+ {
     // Jika kita sampai di sini, itu berarti username saja sudah tidak cocok dari awal.
     // Kita tidak perlu lagi peduli dengan passwordnya.
     Console.WriteLine("Username tidak ditemukan!");
@@ -128,4 +129,4 @@ else
  * terurut dan akurat. Program akan memprioritaskan
  * kesalahan username sebelum memeriksa password.
  * ==================================================
-*/
+ */

@@ -1,5 +1,5 @@
 ﻿/* ==================================================
- * 1.3. OPERATOR ARITMATIKA
+ * 1.3. Operasi Dasar
  * ==================================================
  * Ini adalah operator yang Anda kenal dari pelajaran
  * matematika. C# bisa berfungsi sebagai kalkulator
@@ -66,7 +66,7 @@ Console.WriteLine($"{pembeliNamaDepan} {pembeliNamaBelakang} ingin membeli "    
  * menyentuh sebuah konsep yang penting untuk masa
  * depan.
 
-Console.WriteLine($"...sisa uangnya saat ini adalah {jumlahUang -= pembelian}.\n");
+ Console.WriteLine($"...sisa uangnya saat ini adalah {jumlahUang -= pembelian}.\n");
 
  * Di sini, operasi jumlahUang -= pembelian melakukan
  * dua hal sekaligus:
@@ -87,17 +87,17 @@ Console.WriteLine($"...sisa uangnya saat ini adalah {jumlahUang -= pembelian}.\n
  * Pola yang Disarankan:
  * 1. Hitung dulu sisanya dan simpan di variabel baru.
 
-int sisaUang = jumlahUang - pembelian;
+ int sisaUang = jumlahUang - pembelian;
    
  * 2. Tampilkan variabel baru yang berisi hasil
  *    perhitungan.
 
-Console.WriteLine($"Oleh karena itu, sisa uangnya saat ini adalah {sisaUang}.\n");
+ Console.WriteLine($"Oleh karena itu, sisa uangnya saat ini adalah {sisaUang}.\n");
 
  * 3. (Jika perlu) Baru perbarui nilai variabel asli
  *    setelahnya.
 
-jumlahUang = sisaUang; // atau jumlahUang -= pembelian;
+ jumlahUang = sisaUang; // atau jumlahUang -= pembelian;
 
  * ==================================================
-*/
+ */
