@@ -1,3 +1,5 @@
+## 1. Fondasi – "Menulis Kode Pertama
+
 1.  **Pengenalan & Penyiapan Lingkungan:**
     * Memahami apa itu C# dan .NET.
     * Instalasi .NET SDK dan IDE (Anda sudah menggunakan Rider, itu bagus!).
