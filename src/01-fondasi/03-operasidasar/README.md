@@ -1,7 +1,5 @@
 ﻿## 1.3. Operasi Dasar
 
----
-
 Selamat datang di **Pelajaran 2: Operasi Dasar**. Sekarang kita sudah punya "kotak-kotak penyimpanan" (variabel), saatnya kita belajar melakukan sesuatu dengan isi di dalamnya. Inilah bagian di mana program kita mulai menjadi dinamis dan berguna.
 
 -----
