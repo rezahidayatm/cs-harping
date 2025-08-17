@@ -1,4 +1,4 @@
-## Konsep Inti – "Menjadi Programmer Terstruktur"
+## 2.0. Konsep Inti – "Menjadi Programmer Terstruktur"
 
 1.  **Method/Fungsi:**
     * **Konsep:** Memecah kode Anda menjadi blok-blok kecil yang dapat digunakan kembali.
