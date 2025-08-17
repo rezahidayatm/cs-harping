@@ -1,3 +1,5 @@
+## 4.0. Spesialisasi – "Memilih Jalur Karir" 🗺️
+
 * **Web Development (Backend):** Belajar **ASP.NET Core** untuk membangun Web API dan aplikasi web. Ini juga melibatkan pemahaman **database (SQL)**, **Entity Framework Core (ORM)**, dan konsep **RESTful API**.
 * **Game Development:** Fokus pada *game engine* **Unity**, yang menggunakan C# sebagai bahasa utamanya.
 * **Desktop Development:** Belajar *framework* seperti **WPF**, **WinUI**, atau **Avalonia** (untuk cross-platform).
