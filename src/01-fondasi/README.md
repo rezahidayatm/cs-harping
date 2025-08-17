@@ -22,5 +22,3 @@
 6.  **Koleksi Data Sederhana:**
     * **Konsep:** Menyimpan banyak data dalam satu variabel.
     * **Topik:** **Array** (koleksi berukuran tetap) dan **List** (koleksi fleksibel).
-
-🎯 **Tujuan Fase Ini:** Mampu membuat aplikasi konsol sederhana yang interaktif, seperti kalkulator, game tebak angka, atau program input data sederhana.

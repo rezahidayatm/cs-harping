@@ -1,4 +1,10 @@
-﻿## 1.2. Variabel
+﻿## 1.2. Variabel & Tipe Data Primitif
+
+---
+
+Pelajaran pertama kita adalah tentang blok bangunan paling fundamental dalam semua bahasa pemrograman: **Variabel dan Tipe Data**.
+
+-----
 
 ### Pelajaran 1: Variabel - "Kotak Penyimpanan" Kode Anda
 
@@ -118,3 +124,7 @@ Sekarang giliran Anda\! Buatlah program baru atau modifikasi program di atas.
 * `apakahSudahNonton` (tipe `bool`)
 
 Setelah itu, tampilkan semua informasi tersebut ke konsol dengan format yang menarik\!
+
+Selamat\! Anda baru saja mempelajari fondasi dari hampir semua bahasa pemrograman. Jika ada yang kurang jelas atau Anda mengalami kesulitan dengan latihannya, jangan ragu untuk bertanya.
+
+Setelah Anda nyaman dengan ini, pelajaran berikutnya adalah tentang **Operasi Dasar** – apa saja yang bisa kita lakukan dengan semua variabel ini\!

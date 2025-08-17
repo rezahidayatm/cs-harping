@@ -18,5 +18,3 @@
     * **Namespace:** Cara mengorganisir kode Anda agar tidak bentrok.
     * **Bekerja dengan String Lebih Lanjut:** Method bawaan untuk memanipulasi teks.
     * **Bekerja dengan Tanggal & Waktu:** `DateTime`.
-
-🎯 **Tujuan Fase Ini:** Mampu membuat aplikasi yang lebih kompleks dengan memodelkan entitas dunia nyata ke dalam `class` (misalnya `class Player`, `class Product`, `class User`).

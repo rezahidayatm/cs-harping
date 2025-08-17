@@ -1,5 +1,11 @@
 ## 1.4. Struktur Kontrol (Logika Percabangan)
 
+---
+
+Sampai saat ini, program kita berjalan lurus seperti jalan tol—dari atas ke bawah tanpa ada belokan. Sekarang, kita akan memberikannya "otak" untuk bisa **mengambil keputusan**. Kita akan ajarkan program kita cara memilih jalan di sebuah persimpangan.
+
+-----
+
 ### \#\# Pelajaran 3: Struktur Kontrol `if-else` (Logika Percabangan)
 
 Bayangkan program Anda sedang berjalan dan tiba di sebuah persimpangan. Ia harus bertanya, "Apakah saya harus belok kiri atau kanan?" Pernyataan `if-else` adalah rambu lalu lintas yang memberitahu program jalan mana yang harus diambil berdasarkan sebuah **kondisi**.

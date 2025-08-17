@@ -1,6 +1,8 @@
-﻿# 1.1. Persiapan Lingkungan
+﻿## 1.1. Pengenalan & Penyiapan Lingkungan
 
-### 1. Perangkat Lunak Inti (Core Software)
+---
+
+### ### Kategori 1: Perangkat Lunak Inti (Core Software)
 
 Ini adalah fondasi teknis yang wajib ada di mesin pengembangan Anda.
 
@@ -23,7 +25,7 @@ Ini adalah fondasi teknis yang wajib ada di mesin pengembangan Anda.
 
 ---
 
-### 2. Manajemen Kode & Kolaborasi
+### ### Kategori 2: Manajemen Kode & Kolaborasi
 
 Meskipun Anda bekerja sendirian, membiasakan diri dengan ini adalah praktik profesional yang krusial.
 
@@ -34,3 +36,46 @@ Meskipun Anda bekerja sendirian, membiasakan diri dengan ini adalah praktik prof
 2.  **Akun di Platform Hosting Git (GitHub, GitLab, dll.)**
     * **Apa ini?** Layanan online untuk menyimpan repositori Git Anda. Ini berfungsi sebagai *backup* online dan tempat untuk memamerkan portofolio Anda.
     * **Persiapan:** Buat akun gratis di **GitHub**. Ini adalah platform paling populer untuk proyek *open-source* dan portofolio pribadi. Hubungkan akun GitHub Anda dengan Git di komputer lokal Anda.
+
+---
+
+### ### Kategori 3: Perencanaan & Konsep Proyek
+
+Ini bukan tentang perangkat lunak, tetapi tentang pola pikir. Jangan pernah langsung melompat ke kode tanpa ini.
+
+1.  **Definisi dan Ruang Lingkup Proyek**
+    * **Apa ini?** Menjawab pertanyaan-pertanyaan dasar sebelum Anda menulis satu baris kode pun.
+    * **Persiapan:** Ambil buku catatan, atau buka aplikasi catatan (seperti Notion, Obsidian, atau bahkan Notepad). Tulis jawaban untuk pertanyaan ini:
+        * Apa tujuan utama dari proyek ini? (Contoh: "Membuat aplikasi konsol untuk mengelola daftar tugas sederhana.")
+        * Siapa penggunanya? (Jawabannya bisa "hanya saya sendiri".)
+        * Fitur-fitur minimal apa saja yang harus ada untuk versi pertama? (Contoh: "Tambah tugas, lihat semua tugas, tandai tugas selesai, hapus tugas.")
+        * Teknologi apa yang akan digunakan? (Contoh: "Aplikasi Konsol .NET, C#.")
+
+2.  **Struktur Proyek**
+    * **Apa ini?** Merencanakan bagaimana Anda akan mengatur file dan folder.
+    * **Persiapan:** Pikirkan tentang struktur yang sudah kita diskusikan sebelumnya. Buat rencana:
+        * Nama *solution* (`.sln`): `TodoApp.sln`
+        * Nama proyek (`.csproj`): `TodoApp.Console/TodoApp.Console.csproj`
+        * Apakah akan ada proyek lain? (Mungkin nanti ada `TodoApp.Logic` untuk logika bisnisnya).
+
+---
+
+### ### Rangkuman Persiapan Anda
+
+Secara ringkas, daftar periksa Anda adalah:
+
+**Perangkat Lunak:**
+-   [✅] .NET SDK (Versi terbaru)
+-   [✅] JetBrains Rider (Versi terbaru)
+-   [✅] Git
+
+**Akun Online:**
+-   [✅] Akun GitHub
+
+**Perencanaan:**
+-   [✅] Ide jelas tentang apa yang akan dibuat (tujuan & fitur).
+-   [✅] Rencana awal untuk struktur folder dan proyek.
+
+Anda sudah memiliki IDE yang tepat. Langkah selanjutnya adalah memastikan .NET SDK dan Git terinstal, membuat repositori baru di GitHub, lalu mulai merencanakan fitur-fitur dasar dari proyek Anda.
+
+Selamat merencanakan! Proses persiapan ini adalah bagian yang sangat penting dan menyenangkan dari perjalanan membangun sesuatu yang baru.

@@ -1,4 +1,12 @@
-﻿### 1. Operator Aritmetika (Matematika) ➕➖✖️➗
+﻿## 1.3. Operasi Dasar
+
+---
+
+Selamat datang di **Pelajaran 2: Operasi Dasar**. Sekarang kita sudah punya "kotak-kotak penyimpanan" (variabel), saatnya kita belajar melakukan sesuatu dengan isi di dalamnya. Inilah bagian di mana program kita mulai menjadi dinamis dan berguna.
+
+-----
+
+### \#\# 1. Operator Aritmetika (Matematika) ➕➖✖️➗
 
 Ini adalah operator yang Anda kenal dari pelajaran matematika. C\# bisa berfungsi sebagai kalkulator yang sangat canggih.
 
@@ -29,7 +37,7 @@ Contoh: `10.0 / 3` akan menghasilkan `3.333...`.
 
 -----
 
-### 2. Penggabungan String (Concatenation) 🔗
+### \#\# 2. Penggabungan String (Concatenation) 🔗
 
 Anda sudah pernah melihat ini, yaitu cara menggabungkan beberapa teks menjadi satu.
 
@@ -54,7 +62,7 @@ Console.WriteLine(namaLengkapModern); // Output: Keanu Reeves
 
 -----
 
-### 3. Operator Penugasan Singkat (Shorthand) `+=`
+### \#\# 3. Operator Penugasan Singkat (Shorthand) `+=`
 
 Seringkali kita ingin mengubah nilai sebuah variabel berdasarkan nilainya saat ini (misalnya, menambah skor).
 
@@ -91,7 +99,7 @@ level++; // Menambah 1. level sekarang 10.
 
 -----
 
-### 4. Urutan Operasi (Order of Operations)
+### \#\# 4. Urutan Operasi (Order of Operations)
 
 Sama seperti di matematika, C\# mengikuti urutan operasi (biasa dikenal sebagai **PEMDAS/BODMAS**). Perkalian (`*`) dan pembagian (`/`) akan selalu didahulukan sebelum penjumlahan (`+`) dan pengurangan (`-`).
 

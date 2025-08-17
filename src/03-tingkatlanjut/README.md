@@ -17,5 +17,3 @@
 5.  **Dasar-Dasar Akses Data:**
     * **Konsep:** Menyimpan dan mengambil data dari sumber eksternal.
     * **Topik:** Membaca & menulis file (`File.IO`), serialisasi JSON, dan pengenalan database.
-
-🎯 **Tujuan Fase Ini:** Siap untuk mulai membangun proyek nyata dan memilih jalur spesialisasi.
