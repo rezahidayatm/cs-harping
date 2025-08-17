@@ -32,8 +32,8 @@ Console.WriteLine("== Pemutar Lagu ==\n");
 while (true)
 {
     
-    Console.WriteLine("Pilih Aksi")    ;
-    Console.WriteLine("1. Mainkan")    ;
+    Console.WriteLine("Pilih Aksi")      ;
+    Console.WriteLine("1. Mainkan")      ;
     Console.WriteLine("2. Berhenti")     ;
     Console.WriteLine("3. Jeda")         ;
     Console.WriteLine("4. Edit Playlist");
@@ -49,22 +49,22 @@ while (true)
             Console.WriteLine("\nLagu dimainkan...\n");
             break;
         case "2" :
-            Console.WriteLine("\nLagu berhenti...\n") ;
+            Console.WriteLine("\nLagu berhenti...\n");
             break;
         case "3" : 
-            Console.WriteLine("\nLagu dijeda...\n")   ;
+            Console.WriteLine("\nLagu dijeda...\n");
             break;
         case "4" :
 
             while (true)
             {
                 
-                Console.WriteLine("Edit Playlist:")   ;
-                Console.WriteLine("1. Lihat playlist");
-                Console.WriteLine("2. Tambah Playlist") ;
-                Console.WriteLine("3. Hapus Playlist")  ;
-                Console.WriteLine("0. Keluar")          ;
-                Console.Write("> ")                     ;
+                Console.WriteLine("Edit Playlist:")    ;
+                Console.WriteLine("1. Lihat playlist") ;
+                Console.WriteLine("2. Tambah Playlist");
+                Console.WriteLine("3. Hapus Playlist") ;
+                Console.WriteLine("0. Keluar")         ;
+                Console.Write("> ")                    ;
                 
                 input = Console.ReadLine();
                 
