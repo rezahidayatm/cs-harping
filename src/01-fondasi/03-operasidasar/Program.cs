@@ -5,55 +5,55 @@
  * matematika. C# bisa berfungsi sebagai kalkulator
  * yang sangat canggih.
  *
- * `+`  **Penjumlahan**
- * `-`  **Pengurangan**
- * `*`  **Perkalian**
- * `/`  **Pembagian**
- * `%`  **Modulo** (Sisa hasil bagi)
+ * `+`  Penjumlahan
+ * `-`  Pengurangan
+ * `*`  Perkalian
+ * `/`  Pembagian
+ * `%`  Modulo (Sisa hasil bagi)
  * ==================================================
  */
 
 
 
 // Pembeli
-string  pembeliNamaDepan    = "Keanu"       ;
-string  pembeliNamaBelakang = "Reeves"      ;
-int     jumlahUang          = 75000         ;
+string  pembeliNamaDepan    = "Keanu"    ;
+string  pembeliNamaBelakang = "Reeves"   ;
+int     jumlahUang          = 75000      ;
 
 // Item
-string  namaItem1           = "Buku"        ;
-string  namaItem2           = "Pensil"      ;
-string  namaItem3           = "Penghapus"   ;
+string  namaItem1           = "Buku"     ;
+string  namaItem2           = "Pensil"   ;
+string  namaItem3           = "Penghapus";
 
 // Harga
-int     hargaBuku           = 12000         ;
-int     hargaPensil         = 3000          ;
-int     hargaPenghapus      = 5000          ;
+int     hargaBuku           = 12000      ;
+int     hargaPensil         = 3000       ;
+int     hargaPenghapus      = 5000       ;
 
 // Operasi
-int     pembelian           = 2 * hargaBuku + 3 * hargaPensil + hargaPenghapus;
+int pembelian = 2 * hargaBuku + 3 * hargaPensil + hargaPenghapus;
 
 // Struk
-Console.WriteLine(" = Struk Belanja = ")                    ;
-Console.WriteLine("-------------------")                    ;
-Console.WriteLine($" 2 x {namaItem1} = {2 * hargaBuku}")    ;
-Console.WriteLine($" 3 x {namaItem2} = {3 * hargaPensil}")  ;
-Console.WriteLine($" 1 x {namaItem3} = {hargaPenghapus}")   ;
-Console.WriteLine($" Total = {pembelian} -")                ;
-Console.WriteLine("-------------------")                    ;
-Console.WriteLine($" Bayar = {jumlahUang}")                 ;
-Console.WriteLine($" Sisa  = {jumlahUang - pembelian}")     ;
-Console.WriteLine("-------------------")                    ;
-Console.WriteLine("Terima kasih telah belanja disini.\n")   ;
+Console.WriteLine(" = Struk Belanja = ")                  ;
+Console.WriteLine("-------------------")                  ;
+Console.WriteLine($" 2 x {namaItem1} = {2 * hargaBuku}")  ;
+Console.WriteLine($" 3 x {namaItem2} = {3 * hargaPensil}");
+Console.WriteLine($" 1 x {namaItem3} = {hargaPenghapus}") ;
+Console.WriteLine($" Total = {pembelian} -")              ;
+Console.WriteLine("-------------------")                  ;
+Console.WriteLine($" Bayar = {jumlahUang}")               ;
+Console.WriteLine($" Sisa  = {jumlahUang - pembelian}")   ;
+Console.WriteLine("-------------------")                  ;
+Console.WriteLine("Terima kasih telah belanja disini.\n") ;
 
 // Jalan Cerita
-Console.WriteLine($"{pembeliNamaDepan} {pembeliNamaBelakang} ingin membeli "        +
-                  $"peralatan tulis untuk sekolah barunya. \nDengan membawa uang "  +
-                  $"sejumlah {jumlahUang}, {pembeliNamaDepan} memutuskan untuk\n"   +
-                  $"membeli 2 {namaItem1}, 3 {namaItem2}, dan sebuah {namaItem3} "  +
-                  $"dengan total harga\n{pembelian}. {pembeliNamaDepan} pun "       +
-                  $"membayar dengan uangnya. Oleh karena itu, sisa\nuangnya saat "  + 
-                  $"ini adalah {jumlahUang -= pembelian}.\n")                       ; // <-
+Console.WriteLine($"{pembeliNamaDepan} {pembeliNamaBelakang} ingin membeli "       +
+                  $"peralatan tulis untuk sekolah barunya. \nDengan membawa uang " +
+                  $"sejumlah {jumlahUang}, {pembeliNamaDepan} memutuskan untuk\n"  +
+                  $"membeli 2 {namaItem1}, 3 {namaItem2}, dan sebuah {namaItem3} " +
+                  $"dengan total harga\n{pembelian}. {pembeliNamaDepan} pun "      +
+                  $"membayar dengan uangnya. Oleh karena itu, sisa\nuangnya saat " + 
+                  $"ini adalah {jumlahUang -= pembelian}.\n")                      ; // <-
 
 
 
@@ -65,9 +65,9 @@ Console.WriteLine($"{pembeliNamaDepan} {pembeliNamaBelakang} ingin membeli "    
  * berjalan dengan sempurna—tetapi karena ini
  * menyentuh sebuah konsep yang penting untuk masa
  * depan.
- *
- * Console.WriteLine($"...sisa uangnya saat ini adalah {jumlahUang -= pembelian}.\n");
- *
+
+Console.WriteLine($"...sisa uangnya saat ini adalah {jumlahUang -= pembelian}.\n");
+
  * Di sini, operasi jumlahUang -= pembelian melakukan
  * dua hal sekaligus:
  * 1. Menghitung nilai jumlahUang - pembelian.
@@ -86,12 +86,18 @@ Console.WriteLine($"{pembeliNamaDepan} {pembeliNamaBelakang} ingin membeli "    
  *
  * Pola yang Disarankan:
  * 1. Hitung dulu sisanya dan simpan di variabel baru.
- *    int sisaUang = jumlahUang - pembelian;
+
+int sisaUang = jumlahUang - pembelian;
+   
  * 2. Tampilkan variabel baru yang berisi hasil
  *    perhitungan.
- *    Console.WriteLine($"Oleh karena itu, sisa uangnya saat ini adalah {sisaUang}.\n");
+
+Console.WriteLine($"Oleh karena itu, sisa uangnya saat ini adalah {sisaUang}.\n");
+
  * 3. (Jika perlu) Baru perbarui nilai variabel asli
  *    setelahnya.
- *    jumlahUang = sisaUang; // atau jumlahUang -= pembelian;
+
+jumlahUang = sisaUang; // atau jumlahUang -= pembelian;
+
  * ==================================================
 */
