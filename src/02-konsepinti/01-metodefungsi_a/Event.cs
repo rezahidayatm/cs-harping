@@ -9,7 +9,6 @@ public class Event
     public static void UlangTahun(string? nama, double umur)
     {
         // Cek umur
-
         if (umur >= 2 && umur < 3 && !_trigger1)
         {
             Console.WriteLine("\n=================================");
