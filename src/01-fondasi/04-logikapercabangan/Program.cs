@@ -13,19 +13,18 @@
 
 
 // Data admin
-string  nama     = "Keanu Reeves"  ;
-string  username = "keanureeves"   ;
-string  password = "rahasiarahasia";
+string nama = "Keanu Reeves";
+string username = "keanureeves";
+string password = "rahasiarahasia";
 
 // Program
-Console.WriteLine("Bank Sederhana")  ;
+Console.WriteLine("Bank Sederhana");
 Console.WriteLine("--------------\n");
-
 Console.WriteLine("Tekan enter untuk melanjutkan. Atau, tekan 1 untuk masuk ke halaman admin.");
 Console.Write("> ");
 
-bool    halamanAdmin = false;
-string? input        = Console.ReadLine();
+bool halamanAdmin = false;
+string? input = Console.ReadLine();
 
 if (input is "1")
 {
@@ -34,32 +33,30 @@ if (input is "1")
 
 if (halamanAdmin)
 {
-    
-   Console.WriteLine("Silahkan masukkan username admin anda.");
-   Console.Write("> ");
+    Console.WriteLine("Silahkan masukkan username admin anda.");
+    Console.Write("> ");
+    string? inputUsernameAdmin = Console.ReadLine();
 
-   string? inputUsernameAdmin = Console.ReadLine();
-   
-   Console.WriteLine("Silahkan masukkan password admin anda.");
-   Console.Write("> ");
-   
-   string? inputPasswordAdmin = Console.ReadLine();
-   
-   if (inputUsernameAdmin == username && inputPasswordAdmin == password) // Jika input benar.
-   {
-       Console.WriteLine($"Selamat datang {nama}. Silahkan pilih aksi: ...");
-   }
-   else if (inputPasswordAdmin != password) // Jika password salah.         // <-
-   {                                                                        // <-
-       Console.WriteLine("Password salah!");                                // <-
-   }                                                                        // <-
-   else     // Selain itu.
-   {
-       Console.WriteLine("Username tidak ditemukan!"); 
-   }
-   return;  // Keluar.
-   
+    Console.WriteLine("Silahkan masukkan password admin anda.");
+    Console.Write("> ");
+    string? inputPasswordAdmin = Console.ReadLine();
+
+    if (inputUsernameAdmin == username && inputPasswordAdmin == password) // Jika input benar.
+    {
+        Console.WriteLine($"Selamat datang {nama}. Silahkan pilih aksi: ...");
+    }
+    else if (inputPasswordAdmin != password) // Jika password salah.         // <-
+    {
+        Console.WriteLine("Password salah!");
+    }
+    else // Selain itu.
+    {
+        Console.WriteLine("Username tidak ditemukan!");
+    }
+
+    return; // Keluar.
 }
+
 Console.WriteLine("Selamat datang nasabah. Silahkan masukkan username nasabah anda. ...");
 
 
@@ -82,7 +79,7 @@ Console.WriteLine("Selamat datang nasabah. Silahkan masukkan username nasabah an
  }
  else    // 3. Selain itu
  {
-     Console.WriteLine("Username tidak ditemukan!"); 
+     Console.WriteLine("Username tidak ditemukan!");
  }
 
  * Sekarang, mari kita simulasikan apa yang terjadi
@@ -124,7 +121,7 @@ Console.WriteLine("Selamat datang nasabah. Silahkan masukkan username nasabah an
     // Kita tidak perlu lagi peduli dengan passwordnya.
     Console.WriteLine("Username tidak ditemukan!");
  }
- 
+
  * Dengan struktur ini, pengecekan menjadi lebih
  * terurut dan akurat. Program akan memprioritaskan
  * kesalahan username sebelum memeriksa password.

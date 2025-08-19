@@ -11,16 +11,15 @@
 
 
 Console.WriteLine("\n ------------------------ ");
-Console.WriteLine(" == FizzBuzz Challenge == ")  ;
+Console.WriteLine(" == FizzBuzz Challenge == ");
 Console.WriteLine(" ------------------------ \n");
 
 int fizzBuzz = 0;
-int fizz     = 0;
-int buzz     = 0;
+int fizz = 0;
+int buzz = 0;
 
 for (int i = 1; i <= 100; i++)
 {
-    
     if (i % 3 is 0 && i % 5 is 0)
     {
         Console.WriteLine(" ========");
@@ -29,7 +28,7 @@ for (int i = 1; i <= 100; i++)
         fizzBuzz++;
         continue;
     }
-    
+
     if (i % 3 is 0)
     {
         Console.WriteLine(" ********");
@@ -47,17 +46,17 @@ for (int i = 1; i <= 100; i++)
         buzz++;
         continue;
     }
-    
+
     Console.WriteLine($" - {i} -");
-    
 }
-Console.WriteLine("\n ------------------------- ")       ;
-Console.WriteLine(" |         Total         |")          ;
-Console.WriteLine(" ------------------------- ")         ;
+
+Console.WriteLine("\n ------------------------- ");
+Console.WriteLine(" |         Total         |");
+Console.WriteLine(" ------------------------- ");
 Console.WriteLine($" | FizzBuzz  = {fizzBuzz}         |");
-Console.WriteLine($" | Fizz      = {fizz}        |")     ;
-Console.WriteLine($" | Buzz      = {buzz}        |" )    ;
-Console.WriteLine(" -------------------------    ")      ;
+Console.WriteLine($" | Fizz      = {fizz}        |");
+Console.WriteLine($" | Buzz      = {buzz}        |");
+Console.WriteLine(" -------------------------    ");
 
 
 
@@ -100,7 +99,7 @@ Console.WriteLine(" -------------------------    ")      ;
  {
     Console.WriteLine(i);
  }
- 
+
  *  a. Cara kerja: Cek kondisi secara berurutan.
  *     Begitu satu ditemukan benar, sisanya diabaikan.
  *  b. Kelebihan: Bagi banyak programmer, ini secara
