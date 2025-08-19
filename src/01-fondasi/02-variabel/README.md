@@ -1,19 +1,23 @@
 ﻿## 1.2. Variabel & Tipe Data Primitif
 
-Pelajaran pertama kita adalah tentang blok bangunan paling fundamental dalam semua bahasa pemrograman: **Variabel dan Tipe Data**.
+Pelajaran pertama kita adalah tentang blok bangunan paling fundamental dalam semua bahasa pemrograman: **Variabel dan
+Tipe Data**.
 
 -----
 
 ### Pelajaran 1: Variabel - "Kotak Penyimpanan" Kode Anda
 
-Bayangkan Anda sedang merapikan sebuah ruangan. Anda pasti butuh beberapa kotak untuk menyimpan barang-barang Anda, dan setiap kotak diberi label agar Anda tahu isinya.
+Bayangkan Anda sedang merapikan sebuah ruangan. Anda pasti butuh beberapa kotak untuk menyimpan barang-barang Anda, dan
+setiap kotak diberi label agar Anda tahu isinya.
 
-Dalam pemrograman, **Variabel** adalah persis seperti **kotak penyimpanan berlabel** itu. Fungsinya adalah untuk menyimpan sebuah nilai (data) di dalam memori komputer agar bisa kita gunakan nanti.
+Dalam pemrograman, **Variabel** adalah persis seperti **kotak penyimpanan berlabel** itu. Fungsinya adalah untuk
+menyimpan sebuah nilai (data) di dalam memori komputer agar bisa kita gunakan nanti.
 
 Setiap "kotak" di C\# harus memiliki dua hal:
 
-1.  **Tipe Data**: Jenis barang apa yang boleh disimpan di dalam kotak ini? (Apakah ini kotak untuk angka, untuk tulisan, atau untuk yang lain?)
-2.  **Nama Variabel**: Label yang kita tempelkan di kotak agar mudah dikenali.
+1. **Tipe Data**: Jenis barang apa yang boleh disimpan di dalam kotak ini? (Apakah ini kotak untuk angka, untuk tulisan,
+   atau untuk yang lain?)
+2. **Nama Variabel**: Label yang kita tempelkan di kotak agar mudah dikenali.
 
 Mari kita kenali jenis-jenis "kotak" paling umum yang akan sering Anda gunakan.
 
@@ -59,12 +63,14 @@ Mari kita kenali jenis-jenis "kotak" paling umum yang akan sering Anda gunakan.
    double    hargaBuku       = 85500.75;
 ```
 
-*(Catatan: Ada juga `float` dan `decimal` untuk angka desimal, tapi `double` adalah titik awal yang paling umum dan serbaguna).*
+*(Catatan: Ada juga `float` dan `decimal` untuk angka desimal, tapi `double` adalah titik awal yang paling umum dan
+serbaguna).*
 
 #### 4\. `bool` - Kotak Saklar (ON/OFF)
 
 * **Tipe Data:** `bool` (singkatan dari *boolean*).
-* **Isi:** Hanya bisa menyimpan dua nilai: `true` (benar) atau `false` (salah). Sangat penting untuk logika dan pengambilan keputusan.
+* **Isi:** Hanya bisa menyimpan dua nilai: `true` (benar) atau `false` (salah). Sangat penting untuk logika dan
+  pengambilan keputusan.
 * **Contoh:** Status login, ketersediaan barang.
 
 <!-- end list -->
@@ -79,7 +85,9 @@ Mari kita kenali jenis-jenis "kotak" paling umum yang akan sering Anda gunakan.
 
 ### Mari Kita Praktikkan\!
 
-Sekarang, buka Rider Anda, buat proyek "Console App" baru, dan coba ketik atau salin-tempel kode di bawah ini ke dalam file `Program.cs` Anda. Ini akan menunjukkan cara mendeklarasikan dan menampilkan semua variabel yang baru kita pelajari.
+Sekarang, buka Rider Anda, buat proyek "Console App" baru, dan coba ketik atau salin-tempel kode di bawah ini ke dalam
+file `Program.cs` Anda. Ini akan menunjukkan cara mendeklarasikan dan menampilkan semua variabel yang baru kita
+pelajari.
 
 ```csharp
 // Hapus semua kode template dan ganti dengan ini
@@ -107,7 +115,8 @@ Console.WriteLine($"Tinggi Badan: {tinggiDalamMeter} meter");
 Console.WriteLine($"Status Pernikahan: {sudahMenikah}");
 ```
 
-**Jalankan programnya (tekan tombol ▶️ hijau di Rider).** Anda akan melihat biodata Budi ditampilkan dengan rapi di konsol.
+**Jalankan programnya (tekan tombol ▶️ hijau di Rider).** Anda akan melihat biodata Budi ditampilkan dengan rapi di
+konsol.
 
 -----
 
@@ -123,6 +132,8 @@ Sekarang giliran Anda\! Buatlah program baru atau modifikasi program di atas.
 
 Setelah itu, tampilkan semua informasi tersebut ke konsol dengan format yang menarik\!
 
-Selamat\! Anda baru saja mempelajari fondasi dari hampir semua bahasa pemrograman. Jika ada yang kurang jelas atau Anda mengalami kesulitan dengan latihannya, jangan ragu untuk bertanya.
+Selamat\! Anda baru saja mempelajari fondasi dari hampir semua bahasa pemrograman. Jika ada yang kurang jelas atau Anda
+mengalami kesulitan dengan latihannya, jangan ragu untuk bertanya.
 
-Setelah Anda nyaman dengan ini, pelajaran berikutnya adalah tentang **Operasi Dasar** – apa saja yang bisa kita lakukan dengan semua variabel ini\!
+Setelah Anda nyaman dengan ini, pelajaran berikutnya adalah tentang **Operasi Dasar** – apa saja yang bisa kita lakukan
+dengan semua variabel ini\!

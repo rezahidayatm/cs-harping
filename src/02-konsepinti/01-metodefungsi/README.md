@@ -1,6 +1,8 @@
 ## 2.1. Method/Fungsi
 
-Ini adalah lompatan besar. Di Fase 1, kita belajar cara menulis instruksi—seperti belajar kata-kata dan kalimat. Di Fase 2 ini, kita akan belajar cara **mendesain dan membangun sistem**—seperti belajar menulis sebuah cerita atau esai yang terstruktur.
+Ini adalah lompatan besar. Di Fase 1, kita belajar cara menulis instruksi—seperti belajar kata-kata dan kalimat. Di Fase
+2 ini, kita akan belajar cara **mendesain dan membangun sistem**—seperti belajar menulis sebuah cerita atau esai yang
+terstruktur.
 
 Kita akan memulai dengan topik yang menjadi jantung dari C\# dan pemrograman modern: **Class dan Object**.
 
@@ -8,24 +10,32 @@ Kita akan memulai dengan topik yang menjadi jantung dari C\# dan pemrograman mod
 
 ### \#\# Pelajaran 5: Class dan Object - Cetak Biru dan Bangunan
 
-Sampai sekarang, kita menggunakan tipe data sederhana seperti `int` dan `string`. Tapi bagaimana jika kita ingin merepresentasikan sesuatu yang lebih kompleks, seperti "Mobil", "Pemain", atau "Produk"? Sesuatu yang punya **data** (seperti warna, kecepatan) sekaligus **perilaku** (seperti bisa `maju()` atau `rem()`).
+Sampai sekarang, kita menggunakan tipe data sederhana seperti `int` dan `string`. Tapi bagaimana jika kita ingin
+merepresentasikan sesuatu yang lebih kompleks, seperti "Mobil", "Pemain", atau "Produk"? Sesuatu yang punya **data** (
+seperti warna, kecepatan) sekaligus **perilaku** (seperti bisa `maju()` atau `rem()`).
 
 Di sinilah **Class** dan **Object** berperan.
 
 #### **Class adalah Cetak Biru (Blueprint)** blueprints
 
-Sebuah **Class** adalah sebuah **template** atau **cetak biru**. Ia tidak melakukan apa-apa. Ia hanya sebuah desain yang mendefinisikan:
+Sebuah **Class** adalah sebuah **template** atau **cetak biru**. Ia tidak melakukan apa-apa. Ia hanya sebuah desain yang
+mendefinisikan:
 
-* **Properti (Properties):** Data atau atribut apa yang akan dimiliki oleh objek dari class ini? (Contoh: Mobil punya `Warna`, `JumlahPintu`, `KecepatanMaksimal`).
-* **Metode (Methods):** Perilaku atau aksi apa yang bisa dilakukan? (Contoh: Mobil bisa `NyalakanMesin()`, `Gas()`, `Rem()`).
+* **Properti (Properties):** Data atau atribut apa yang akan dimiliki oleh objek dari class ini? (Contoh: Mobil punya
+  `Warna`, `JumlahPintu`, `KecepatanMaksimal`).
+* **Metode (Methods):** Perilaku atau aksi apa yang bisa dilakukan? (Contoh: Mobil bisa `NyalakanMesin()`, `Gas()`,
+  `Rem()`).
 
 Anda tidak bisa mengendarai sebuah cetak biru mobil.
 
 #### **Object adalah Bangunan Nyata (Instance)**
 
-Sebuah **Object** adalah **hasil nyata** yang dibuat dari sebuah `Class`. Ia adalah sebuah **instance** (perwujudan) dari cetak biru tersebut.
+Sebuah **Object** adalah **hasil nyata** yang dibuat dari sebuah `Class`. Ia adalah sebuah **instance** (perwujudan)
+dari cetak biru tersebut.
 
-Dari satu `Class` (cetak biru) `Mobil`, Anda bisa membuat **banyak Object** (mobil nyata): mobil merah, mobil biru, mobil hitam. Masing-masing adalah objek yang independen dengan propertinya sendiri (warnanya beda-beda), tetapi mereka semua berbagi perilaku yang sama (semua bisa di-gas).
+Dari satu `Class` (cetak biru) `Mobil`, Anda bisa membuat **banyak Object** (mobil nyata): mobil merah, mobil biru,
+mobil hitam. Masing-masing adalah objek yang independen dengan propertinya sendiri (warnanya beda-beda), tetapi mereka
+semua berbagi perilaku yang sama (semua bisa di-gas).
 
 -----
 
@@ -104,12 +114,14 @@ Saatnya Anda mencoba membuat cetak biru sendiri\!
 
 **Tugas:**
 
-1.  Buat sebuah `class` baru bernama `Kucing`.
-2.  Berikan `class` tersebut tiga **properti**: `Nama` (string), `Warna` (string), dan `Umur` (int).
-3.  Buat sebuah **constructor** yang menerima `nama` dan `warna` saat kucing baru dibuat. Set `Umur` awalnya menjadi `1`.
-4.  Buat dua **metode**:
-    * `void Makan(string makanan)`: Harus menampilkan pesan seperti `"[Nama Kucing] sedang makan [makanan] dengan lahap."`
+1. Buat sebuah `class` baru bernama `Kucing`.
+2. Berikan `class` tersebut tiga **properti**: `Nama` (string), `Warna` (string), dan `Umur` (int).
+3. Buat sebuah **constructor** yang menerima `nama` dan `warna` saat kucing baru dibuat. Set `Umur` awalnya menjadi `1`.
+4. Buat dua **metode**:
+    * `void Makan(string makanan)`: Harus menampilkan pesan seperti
+      `"[Nama Kucing] sedang makan [makanan] dengan lahap."`
     * `void Tidur()`: Harus menampilkan pesan seperti `"[Nama Kucing] sedang tidur pulas."`
-5.  Di `Program.cs`, buatlah **dua object** kucing yang berbeda (misalnya, "Oyen" dan "Cimeng"). Panggil metode `Makan()` dan `Tidur()` dari masing-masing objek untuk menunjukkan bahwa mereka berperilaku sesuai desain Anda.
+5. Di `Program.cs`, buatlah **dua object** kucing yang berbeda (misalnya, "Oyen" dan "Cimeng"). Panggil metode `Makan()`
+   dan `Tidur()` dari masing-masing objek untuk menunjukkan bahwa mereka berperilaku sesuai desain Anda.
 
 Ini adalah langkah besar, jadi jangan ragu untuk bertanya jika ada bagian yang membingungkan. Selamat membangun\!

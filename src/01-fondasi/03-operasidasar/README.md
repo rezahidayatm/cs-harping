@@ -1,12 +1,15 @@
 ﻿## 1.3. Operasi Dasar
 
-Selamat datang di **Pelajaran 2: Operasi Dasar**. Sekarang kita sudah punya "kotak-kotak penyimpanan" (variabel), saatnya kita belajar melakukan sesuatu dengan isi di dalamnya. Inilah bagian di mana program kita mulai menjadi dinamis dan berguna.
+Selamat datang di **Pelajaran 2: Operasi Dasar**. Sekarang kita sudah punya "kotak-kotak penyimpanan" (variabel),
+saatnya kita belajar melakukan sesuatu dengan isi di dalamnya. Inilah bagian di mana program kita mulai menjadi dinamis
+dan berguna.
 
 -----
 
 ### \#\# 1. Operator Aritmetika (Matematika) ➕➖✖️➗
 
-Ini adalah operator yang Anda kenal dari pelajaran matematika. C\# bisa berfungsi sebagai kalkulator yang sangat canggih.
+Ini adalah operator yang Anda kenal dari pelajaran matematika. C\# bisa berfungsi sebagai kalkulator yang sangat
+canggih.
 
 * `+`  **Penjumlahan**
 * `-`  **Pengurangan**
@@ -30,7 +33,8 @@ Console.WriteLine($"Pembagian: {a / b}");       // Output: 3 (karena int tidak p
 Console.WriteLine($"Modulo (Sisa Bagi): {a % b}"); // Output: 1
 ```
 
-**Penting:** Jika Anda membagi dua buah `int`, hasilnya akan selalu `int` (bagian desimalnya akan dihilangkan). Jika Anda ingin hasil yang presisi, pastikan salah satu angkanya adalah `double`.
+**Penting:** Jika Anda membagi dua buah `int`, hasilnya akan selalu `int` (bagian desimalnya akan dihilangkan). Jika
+Anda ingin hasil yang presisi, pastikan salah satu angkanya adalah `double`.
 Contoh: `10.0 / 3` akan menghasilkan `3.333...`.
 
 -----
@@ -99,7 +103,8 @@ level++; // Menambah 1. level sekarang 10.
 
 ### \#\# 4. Urutan Operasi (Order of Operations)
 
-Sama seperti di matematika, C\# mengikuti urutan operasi (biasa dikenal sebagai **PEMDAS/BODMAS**). Perkalian (`*`) dan pembagian (`/`) akan selalu didahulukan sebelum penjumlahan (`+`) dan pengurangan (`-`).
+Sama seperti di matematika, C\# mengikuti urutan operasi (biasa dikenal sebagai **PEMDAS/BODMAS**). Perkalian (`*`) dan
+pembagian (`/`) akan selalu didahulukan sebelum penjumlahan (`+`) dan pengurangan (`-`).
 
 Gunakan tanda kurung `()` untuk mengontrol urutan eksekusi.
 
@@ -121,11 +126,11 @@ Saatnya praktik\! Buatlah sebuah program konsol baru untuk mensimulasikan perhit
 
 **Tugas:**
 
-1.  Buat variabel untuk menyimpan harga dua item, misalnya `hargaBuku` (`double`) dan `hargaPensil` (`double`).
-2.  Buat variabel untuk menyimpan jumlah item yang dibeli, misalnya `jumlahBuku` (`int`) dan `jumlahPensil` (`int`).
-3.  Hitung total harga untuk masing-masing item (harga \* jumlah). Simpan dalam variabel baru.
-4.  Hitung total keseluruhan belanjaan (total harga buku + total harga pensil).
-5.  Tampilkan hasilnya dalam format struk yang rapi ke konsol, seperti contoh di bawah ini.
+1. Buat variabel untuk menyimpan harga dua item, misalnya `hargaBuku` (`double`) dan `hargaPensil` (`double`).
+2. Buat variabel untuk menyimpan jumlah item yang dibeli, misalnya `jumlahBuku` (`int`) dan `jumlahPensil` (`int`).
+3. Hitung total harga untuk masing-masing item (harga \* jumlah). Simpan dalam variabel baru.
+4. Hitung total keseluruhan belanjaan (total harga buku + total harga pensil).
+5. Tampilkan hasilnya dalam format struk yang rapi ke konsol, seperti contoh di bawah ini.
 
 **Contoh Output yang Diharapkan:**
 
@@ -137,4 +142,5 @@ Saatnya praktik\! Buatlah sebuah program konsol baru untuk mensimulasikan perhit
 TOTAL BELANJA: 160000
 ```
 
-Ini akan melatih kemampuan Anda menggunakan operator aritmetika dan memformat string. Selamat mencoba, dan jangan ragu bertanya jika ada kendala\!
+Ini akan melatih kemampuan Anda menggunakan operator aritmetika dan memformat string. Selamat mencoba, dan jangan ragu
+bertanya jika ada kendala\!
